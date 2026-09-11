@@ -1,0 +1,68 @@
+INFO:     Started server process [38868]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:9807 - "GET /health HTTP/1.1" 200 OK
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|##########| 103/103 [00:00<00:00, 2321.39it/s]
+INFO:     127.0.0.1:9826 - "POST /api/materials/notes HTTP/1.1" 201 Created
+INFO:     127.0.0.1:9854 - "POST /api/study/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:9863 - "POST /api/study/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:9871 - "POST /api/study/generate HTTP/1.1" 200 OK
+INFO:     127.0.0.1:9878 - "POST /api/study/generate HTTP/1.1" 200 OK
+INFO:     127.0.0.1:9888 - "GET /api/materials HTTP/1.1" 200 OK
+INFO:     127.0.0.1:9893 - "GET /api/materials/collections HTTP/1.1" 200 OK
+INFO:     127.0.0.1:9894 - "POST /api/progress/flashcards HTTP/1.1" 201 Created
+INFO:     127.0.0.1:9899 - "POST /api/progress/attempts HTTP/1.1" 201 Created
+INFO:     127.0.0.1:9908 - "GET /api/progress/2024103067/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:9911 - "GET /api/materials HTTP/1.1" 200 OK
+INFO:     127.0.0.1:9912 - "DELETE /api/materials/64d564b3-07e5-4241-a737-399857120254 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:9913 - "POST /api/study/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:3321 - "GET /api/progress/2024103067/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:12865 - "GET /api/progress/2024103067/plan HTTP/1.1" 200 OK
+INFO:     127.0.0.1:7031 - "GET /api/progress/2024103067/plan HTTP/1.1" 200 OK
+INFO:     127.0.0.1:13727 - "GET /api/progress/2024103067/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:11563 - "GET /api/progress/2024103067/plan HTTP/1.1" 200 OK
+INFO:     127.0.0.1:6408 - "GET /api/progress/2024103067/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:7819 - "GET /api/progress/2024103067/plan HTTP/1.1" 200 OK
+INFO:     127.0.0.1:2185 - "GET /api/progress/2024103067/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:4571 - "GET /api/progress/2024103067/plan HTTP/1.1" 200 OK
+INFO:     127.0.0.1:14549 - "GET /api/progress/2024103067/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:8650 - "GET /api/progress/2024103067/plan HTTP/1.1" 200 OK
+INFO:     127.0.0.1:7759 - "GET /api/progress/2024103067/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:3357 - "GET /api/progress/2024103067/plan HTTP/1.1" 200 OK
+INFO:     127.0.0.1:14710 - "GET /api/progress/2024103067/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:14710 - "GET /api/progress/2024103067/plan HTTP/1.1" 200 OK
+INFO:     127.0.0.1:7071 - "GET /api/progress/2024103067/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:6149 - "GET /api/progress/2024103067/plan HTTP/1.1" 200 OK
+INFO:     127.0.0.1:7946 - "GET /api/progress/2024103067/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:13386 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:1592 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:9755 - "GET /api/progress/2024103067/plan HTTP/1.1" 200 OK
+INFO:     127.0.0.1:8742 - "GET /api/progress/2024103067/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:8742 - "GET /api/materials?collection=study_material HTTP/1.1" 200 OK
+INFO:     127.0.0.1:9349 - "GET /api/progress/2024103067/plan HTTP/1.1" 200 OK
+INFO:     127.0.0.1:10436 - "GET /api/progress/2024103067/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:10436 - "GET /api/materials?collection=study_material HTTP/1.1" 200 OK
+INFO:     127.0.0.1:9349 - "GET /api/materials?collection=devops HTTP/1.1" 200 OK
+INFO:     127.0.0.1:9349 - "OPTIONS /api/study/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:10436 - "POST /api/study/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:10436 - "OPTIONS /api/study/generate HTTP/1.1" 200 OK
+INFO:     127.0.0.1:9349 - "POST /api/study/generate HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:3305 - "POST /api/materials/notes HTTP/1.1" 201 Created
+INFO:     127.0.0.1:6196 - "GET /api/progress/2024103067/plan HTTP/1.1" 200 OK
+INFO:     127.0.0.1:9783 - "GET /api/progress/2024103067/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:9783 - "GET /api/materials?collection=study_material HTTP/1.1" 200 OK
+INFO:     127.0.0.1:6196 - "GET /api/materials?collection=devops HTTP/1.1" 200 OK
+INFO:     127.0.0.1:6196 - "OPTIONS /api/study/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:9783 - "POST /api/study/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:9783 - "OPTIONS /api/study/generate HTTP/1.1" 200 OK
+INFO:     127.0.0.1:6196 - "POST /api/study/generate HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:2530 - "GET /api/progress/2024103067/plan HTTP/1.1" 200 OK
+INFO:     127.0.0.1:8965 - "GET /api/progress/2024103067/summary HTTP/1.1" 200 OK
+INFO:     127.0.0.1:8965 - "GET /api/materials?collection=study_material HTTP/1.1" 200 OK
+INFO:     127.0.0.1:2530 - "GET /api/materials?collection=devops HTTP/1.1" 200 OK
+INFO:     127.0.0.1:2530 - "OPTIONS /api/study/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:8965 - "POST /api/study/ask HTTP/1.1" 200 OK
+INFO:     127.0.0.1:8965 - "OPTIONS /api/study/generate HTTP/1.1" 200 OK
+INFO:     127.0.0.1:2530 - "POST /api/study/generate HTTP/1.1" 422 Unprocessable Entity
